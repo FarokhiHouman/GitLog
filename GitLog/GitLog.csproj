@@ -14,6 +14,9 @@
     <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
     <PackageReference Include="Serilog.Sinks.MSBuild" Version="1.6.0" />
     <PackageReference Include="Spectre.Console" Version="0.50.1-preview.0.24" />
+	        
+	      <Reference Include="System.Windows.Forms" />	  
+    <PackageReference Include="System.Text.Json" Version="9.0.8" />
   </ItemGroup>
 
 </Project>
